@@ -1,15 +1,11 @@
 import { Text, View } from "react-native";
-
+ 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Welcome to react native</Text>
+    <View className="flex-1 items-center justify-center bg-green-100">
+      <Text className="text-xl font-bold text-blue-500">
+        Welcome to Nativewind!
+      </Text>
     </View>
   );
 }
