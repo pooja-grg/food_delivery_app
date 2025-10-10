@@ -40,7 +40,6 @@ export default function Index() {
             </View>
           )
         }}
-        
       />
     </SafeAreaView>
   );
